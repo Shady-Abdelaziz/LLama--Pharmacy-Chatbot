@@ -1,0 +1,16 @@
+import sqlite3
+conn = sqlite3.connect('chat_history.db')
+cursor = conn.cursor()
+
+# إنشاء جدول المحادثات وفهرس user_id
+cursor.execute('''CREATE TABLE IF NOT EXISTS chat_history (
+                    session_id TEXT,
+                    user_id INTEGER,
+                    user_message TEXT,
+                    assistant_response TEXT,  -- استخدم TEXT بدلًا من JSON في SQLite
+                    timestamp TEXT
+                )''')
+
+# إنشاء فهرس لتحسين الأداء عند استعلامات user_id
+cursor.execute("CREATE INDEX IF NOT EXISTS idx_user_id ON chat_history(user_id);")
+conn.commit()

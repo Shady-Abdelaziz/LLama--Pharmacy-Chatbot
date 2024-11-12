@@ -1,0 +1,871 @@
+INFO:root:Session d9b18284-57dd-4e15-9282-65a90da5d1cc started for user 1
+INFO:root:Session d9b18284-57dd-4e15-9282-65a90da5d1cc started for user 1
+INFO:root:Error during chat generation for user 1: lstat: embedded null character in path
+INFO:root:Session d9b18284-57dd-4e15-9282-65a90da5d1cc started for user 1
+INFO:root:Session d9b18284-57dd-4e15-9282-65a90da5d1cc started for user 1
+INFO:root:Error during chat generation for user 1: lstat: embedded null character in path
+INFO:root:Chat history retrieved for user 1
+INFO:root:Chat history retrieved for user 2
+INFO:root:Chat history for user 2 has been cleared.
+INFO:root:Chat history for user 2 has been cleared.
+INFO:root:Session d9b18284-57dd-4e15-9282-65a90da5d1cc started for user 1
+INFO:root:Session d9b18284-57dd-4e15-9282-65a90da5d1cc started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 08:57:06
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! I'm happy to assist you. How can I help you today? Are you looking for information about a specific medication or do you have a particular symptom you'd like to discuss?
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history retrieved for user 1
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: BAAI/bge-small-en
+INFO:faiss.loader:Loading faiss with AVX512 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX512 support.
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: BAAI/bge-small-en
+INFO:faiss.loader:Loading faiss with AVX512 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX512 support.
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: BAAI/bge-small-en
+INFO:faiss.loader:Loading faiss with AVX512 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX512 support.
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 09:14:50
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! Welcome to our pharmacy. How can I assist you today? Are you looking for information about a specific medication or do you have a particular symptom you'd like to discuss?
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:User 1 question: what is the price of anobliss cream?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! Welcome to our pharmacy. How can I assist you today? Are you looking for information about a specific medication or do you have a particular symptom you'd like to discuss?", 'timestamp': '2024-11-03 09:14:50'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='Anobliss Cream is a medication that contains Lidocaine (1.5% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream,The price is 136.68 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Anovate Cream is a medication that contains Phenylephrine (0.10% w/w) , It is manufactured by USV Ltd and comes in a tube of 20 gm Cream,The price is 134.2 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 09:15:06
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is the price of anobliss cream?
+INFO:root:Assistant responded: The price of Anobliss Cream is 136.68 EGP.
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:User 1 question: what is the company of it?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! Welcome to our pharmacy. How can I assist you today? Are you looking for information about a specific medication or do you have a particular symptom you'd like to discuss?", 'timestamp': '2024-11-03 09:14:50'}, {'user_message': 'what is the price of anobliss cream?', 'assistant_response': 'The price of Anobliss Cream is 136.68 EGP.', 'timestamp': '2024-11-03 09:15:06'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Atormac TG Tablet is a medication that contains Atorvastatin (10mg) , It is manufactured by Macleods Pharmaceuticals Pvt Ltd and comes in a strip of 10 tablets,The price is 221.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Abiways Tablet is a medication that contains Acebrophylline (100mg) , It is manufactured by Mankind Pharma Ltd and comes in a strip of 10 tablets,The price is 167.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 09:15:22
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is the company of it?
+INFO:root:Assistant responded: I don't have that information right now. The provided context does not mention the company of Anobliss Cream.
+INFO:root:Chat history retrieved for user 1
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history retrieved for user 1
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:User 1 question: what is anobliss cream?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='Anobliss Cream is a medication that contains Lidocaine (1.5% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream,The price is 136.68 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Anosum Cream is a medication that contains Lidocaine (4% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 20 gm Rectal Cream,The price is 98.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Anovate Cream is a medication that contains Phenylephrine (0.10% w/w) , It is manufactured by USV Ltd and comes in a tube of 20 gm Cream,The price is 134.2 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 09:16:17
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is anobliss cream?
+INFO:root:Assistant responded: Anobliss Cream is a medication that contains Lidocaine (1.5% w/w). It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream. The price is 136.68 EGP.
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:User 1 question: what is compant of it?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'what is anobliss cream?', 'assistant_response': 'Anobliss Cream is a medication that contains Lidocaine (1.5% w/w). It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream. The price is 136.68 EGP.', 'timestamp': '2024-11-03 09:16:17'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='comes in a bottle of 50 ml Oral Suspension,The price is 203.28 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 09:16:26
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is compant of it?
+INFO:root:Assistant responded: The manufacturer of Anobliss Cream is Samarth Life Sciences Pvt Ltd.
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:User 1 question: what is company of it?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'what is anobliss cream?', 'assistant_response': 'Anobliss Cream is a medication that contains Lidocaine (1.5% w/w). It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream. The price is 136.68 EGP.', 'timestamp': '2024-11-03 09:16:17'}, {'user_message': 'what is compant of it?', 'assistant_response': 'The manufacturer of Anobliss Cream is Samarth Life Sciences Pvt Ltd.', 'timestamp': '2024-11-03 09:16:26'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Acceclowoc-P Tablet is a medication that contains Aceclofenac (100mg) , It is manufactured by Wockhardt Ltd and comes in a strip of 10 tablets,The price is 60.09 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Airtec FB 400 Instacap is a medication that contains Formoterol (6mcg) , It is manufactured by Glenmark Pharmaceuticals Ltd and comes in a bottle of 30 instacaps,The price is 239.9 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 09:16:36
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is company of it?
+INFO:root:Assistant responded: The question "what is company of it?" is unclear, as "it" is not specified. However, based on the previous conversation, I assume the user is asking about the company of Anobliss Cream.
+
+The manufacturer of Anobliss Cream is Samarth Life Sciences Pvt Ltd.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history retrieved for user 1
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 09:17:13
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Do you have any questions about a specific medication or symptom you're experiencing?
+INFO:root:Chat history retrieved for user 1
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 09:18:45
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Do you have any questions about a specific medication or symptom you're experiencing?
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:User 1 question: what is anobliss cream?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Do you have any questions about a specific medication or symptom you're experiencing?", 'timestamp': '2024-11-03 09:18:45'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='Anobliss Cream is a medication that contains Lidocaine (1.5% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream,The price is 136.68 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Anosum Cream is a medication that contains Lidocaine (4% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 20 gm Rectal Cream,The price is 98.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Anovate Cream is a medication that contains Phenylephrine (0.10% w/w) , It is manufactured by USV Ltd and comes in a tube of 20 gm Cream,The price is 134.2 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 09:18:59
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is anobliss cream?
+INFO:root:Assistant responded: Anobliss Cream is a medication that contains Lidocaine (1.5% w/w), manufactured by Samarth Life Sciences Pvt Ltd, and comes in a tube of 30 gm Rectal Cream. The price is 136.68 EGP.
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:User 1 question: what is the price of it?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Do you have any questions about a specific medication or symptom you're experiencing?", 'timestamp': '2024-11-03 09:18:45'}, {'user_message': 'what is anobliss cream?', 'assistant_response': 'Anobliss Cream is a medication that contains Lidocaine (1.5% w/w), manufactured by Samarth Life Sciences Pvt Ltd, and comes in a tube of 30 gm Rectal Cream. The price is 136.68 EGP.', 'timestamp': '2024-11-03 09:18:59'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a packet of 10 ml Eye Drop,The price is 46.33 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 09:19:15
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is the price of it?
+INFO:root:Assistant responded: The price of Anobliss Cream varies depending on the form and quantity. The available prices are:
+
+* 30 gm Rectal Cream: 136.68 EGP
+* 10 ml Eye Drop: 46.33 EGP
+* 60 ml Solution: 690.0 EGP
+* 100 ml Expectorant: 93.5 EGP
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:Session 8302d8e9-5668-4194-bd23-95e3aee11bd0 started for user 1
+INFO:root:User 1 question: thanks
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Do you have any questions about a specific medication or symptom you're experiencing?", 'timestamp': '2024-11-03 09:18:45'}, {'user_message': 'what is anobliss cream?', 'assistant_response': 'Anobliss Cream is a medication that contains Lidocaine (1.5% w/w), manufactured by Samarth Life Sciences Pvt Ltd, and comes in a tube of 30 gm Rectal Cream. The price is 136.68 EGP.', 'timestamp': '2024-11-03 09:18:59'}, {'user_message': 'what is the price of it?', 'assistant_response': 'The price of Anobliss Cream varies depending on the form and quantity. The available prices are:\n\n* 30 gm Rectal Cream: 136.68 EGP\n* 10 ml Eye Drop: 46.33 EGP\n* 60 ml Solution: 690.0 EGP\n* 100 ml Expectorant: 93.5 EGP', 'timestamp': '2024-11-03 09:19:15'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='comes in a bottle of 50 ml Oral Suspension,The price is 203.28 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 09:19:28
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: thanks
+INFO:root:Assistant responded: You're welcome! If you have any more questions or need assistance with anything else, feel free to ask!
+INFO:root:Chat history retrieved for user 1
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history retrieved for user 1
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: BAAI/bge-small-en
+INFO:faiss.loader:Loading faiss with AVX512 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX512 support.
+INFO:root:Session f55e82f6-f60a-4e04-b9cf-3089220cf1f9 started for user 1
+INFO:root:Session f55e82f6-f60a-4e04-b9cf-3089220cf1f9 started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 11:02:03
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! How can I assist you today? Do you have any questions about a specific medication or would you like to inquire about the availability of a product in our pharmacy's inventory?
+INFO:root:Session f55e82f6-f60a-4e04-b9cf-3089220cf1f9 started for user 1
+INFO:root:Session f55e82f6-f60a-4e04-b9cf-3089220cf1f9 started for user 1
+INFO:root:User 1 question: what is the price of anobliss
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! How can I assist you today? Do you have any questions about a specific medication or would you like to inquire about the availability of a product in our pharmacy's inventory?", 'timestamp': '2024-11-03 11:02:03'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a packet of 10 ml Eye Drop,The price is 46.33 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Anobliss Cream is a medication that contains Lidocaine (1.5% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream,The price is 136.68 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 11:02:15
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is the price of anobliss
+INFO:root:Assistant responded: The price of Anobliss Cream is 136.68 EGP.
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: BAAI/bge-small-en
+INFO:faiss.loader:Loading faiss with AVX512 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX512 support.
+INFO:root:Chat history retrieved for user 1
+INFO:root:Chat history retrieved for user 2
+INFO:root:Chat history retrieved for user 1
+INFO:root:Chat history retrieved for user 2
+INFO:root:Chat history retrieved for user 1
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: BAAI/bge-small-en
+INFO:faiss.loader:Loading faiss with AVX512 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX512 support.
+INFO:root:Chat history retrieved for user 1
+INFO:root:Chat history retrieved for user 1
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: BAAI/bge-small-en
+INFO:faiss.loader:Loading faiss with AVX512 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX512 support.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 15:55:04
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?", 'timestamp': '2024-11-03 15:55:04'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 15:55:04
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?", 'timestamp': '2024-11-03 15:55:04'}, {'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?", 'timestamp': '2024-11-03 15:55:04'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 15:55:05
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?", 'timestamp': '2024-11-03 15:55:04'}, {'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?", 'timestamp': '2024-11-03 15:55:04'}, {'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?", 'timestamp': '2024-11-03 15:55:05'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 15:55:05
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?", 'timestamp': '2024-11-03 15:55:04'}, {'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?", 'timestamp': '2024-11-03 15:55:04'}, {'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?", 'timestamp': '2024-11-03 15:55:05'}, {'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?", 'timestamp': '2024-11-03 15:55:05'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 15:55:06
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Are you looking for information about a specific medication or do you need help with a particular symptom?
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 15:55:27
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Do you have a specific question about a medication or a symptom you'd like to ask about?
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: what is the anobliss cream
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Do you have a specific question about a medication or a symptom you'd like to ask about?", 'timestamp': '2024-11-03 15:55:27'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='Anobliss Cream is a medication that contains Lidocaine (1.5% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream,The price is 136.68 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Anovate Cream is a medication that contains Phenylephrine (0.10% w/w) , It is manufactured by USV Ltd and comes in a tube of 20 gm Cream,The price is 134.2 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Anosum Cream is a medication that contains Lidocaine (4% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 20 gm Rectal Cream,The price is 98.0 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 15:55:44
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is the anobliss cream
+INFO:root:Assistant responded: Anobliss Cream is a medication that contains Lidocaine (1.5% w/w), manufactured by Samarth Life Sciences Pvt Ltd, and comes in a tube of 30 gm Rectal Cream. The price is 136.68 EGP.
+INFO:root:Chat history retrieved for user 2
+INFO:root:Chat history retrieved for user 1
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history retrieved for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 16:04:56
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! How can I assist you today? Do you have a specific question about a medication or would you like to inquire about a particular product?
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': 'Hello! How can I assist you today? Do you have a specific question about a medication or would you like to inquire about a particular product?', 'timestamp': '2024-11-03 16:04:56'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 16:08:19
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! How can I assist you today? Do you have a specific question about a medication or would you like to inquire about a particular product?
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: what the side affect of augmantin
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': 'Hello! How can I assist you today? Do you have a specific question about a medication or would you like to inquire about a particular product?', 'timestamp': '2024-11-03 16:04:56'}, {'user_message': 'hello', 'assistant_response': 'Hello! How can I assist you today? Do you have a specific question about a medication or would you like to inquire about a particular product?', 'timestamp': '2024-11-03 16:08:19'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='Augmentin Duo Oral Suspension is a medication that contains Amoxycillin  (200mg) , It is manufactured by Glaxo SmithKline Pharmaceuticals Ltd and comes in a bottle of 30 ml Oral Suspension,The price'), 0.016666666666666666), (Document(metadata={}, page_content='Augmentin ES Oral Suspension is a medication that contains Amoxycillin  (600mg/5ml) , It is manufactured by Glaxo SmithKline Pharmaceuticals Ltd and comes in a bottle of 50 ml Oral Suspension,The'), 0.01639344262295082), (Document(metadata={}, page_content='Augmentin DDS Suspension is a medication that contains Amoxycillin  (400mg/5ml) , It is manufactured by Glaxo SmithKline Pharmaceuticals Ltd and comes in a bottle of 30 ml Oral Suspension,The price'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 16:10:53
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what the side affect of augmantin
+INFO:root:Assistant responded: I don't have that information right now. The available data only provides information about the composition, manufacturer, and price of Augmentin Duo Oral Suspension, Augmentin ES Oral Suspension, and Augmentin DDS Suspension, but it does not mention their side effects. If you have any other questions or would like to inquire about a particular product, I'd be happy to try and assist you!
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: what the price of it?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': 'Hello! How can I assist you today? Do you have a specific question about a medication or would you like to inquire about a particular product?', 'timestamp': '2024-11-03 16:04:56'}, {'user_message': 'hello', 'assistant_response': 'Hello! How can I assist you today? Do you have a specific question about a medication or would you like to inquire about a particular product?', 'timestamp': '2024-11-03 16:08:19'}, {'user_message': 'what the side affect of augmantin', 'assistant_response': "I don't have that information right now. The available data only provides information about the composition, manufacturer, and price of Augmentin Duo Oral Suspension, Augmentin ES Oral Suspension, and Augmentin DDS Suspension, but it does not mention their side effects. If you have any other questions or would like to inquire about a particular product, I'd be happy to try and assist you!", 'timestamp': '2024-11-03 16:10:53'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a packet of 10 ml Eye Drop,The price is 46.33 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='of 1 Solution for Injection,The price is 23960.0 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 16:11:24
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what the price of it?
+INFO:root:Assistant responded: The price of Augmentin varies depending on the form and quantity. Here are the prices I found:
+
+* Augmentin Eye Drop (10 ml packet): 46.33 EGP
+* Augmentin Solution (60 ml bottle): 690.0 EGP
+* Augmentin Solution for Injection (1 unit): 23960.0 EGP
+
+Let me know if you have any other questions!
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: what the company of it?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': 'Hello! How can I assist you today? Do you have a specific question about a medication or would you like to inquire about a particular product?', 'timestamp': '2024-11-03 16:04:56'}, {'user_message': 'hello', 'assistant_response': 'Hello! How can I assist you today? Do you have a specific question about a medication or would you like to inquire about a particular product?', 'timestamp': '2024-11-03 16:08:19'}, {'user_message': 'what the side affect of augmantin', 'assistant_response': "I don't have that information right now. The available data only provides information about the composition, manufacturer, and price of Augmentin Duo Oral Suspension, Augmentin ES Oral Suspension, and Augmentin DDS Suspension, but it does not mention their side effects. If you have any other questions or would like to inquire about a particular product, I'd be happy to try and assist you!", 'timestamp': '2024-11-03 16:10:53'}, {'user_message': 'what the price of it?', 'assistant_response': 'The price of Augmentin varies depending on the form and quantity. Here are the prices I found:\n\n* Augmentin Eye Drop (10 ml packet): 46.33 EGP\n* Augmentin Solution (60 ml bottle): 690.0 EGP\n* Augmentin Solution for Injection (1 unit): 23960.0 EGP\n\nLet me know if you have any other questions!', 'timestamp': '2024-11-03 16:11:24'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Acceclowoc-P Tablet is a medication that contains Aceclofenac (100mg) , It is manufactured by Wockhardt Ltd and comes in a strip of 10 tablets,The price is 60.09 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Atormac TG Tablet is a medication that contains Atorvastatin (10mg) , It is manufactured by Macleods Pharmaceuticals Pvt Ltd and comes in a strip of 10 tablets,The price is 221.0 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 16:11:37
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what the company of it?
+INFO:root:Assistant responded: The company that manufactures Augmentin is not specified in the available data. However, I can tell you that the company that manufactures Augmentin Duo Oral Suspension, Augmentin ES Oral Suspension, and Augmentin DDS Suspension is not mentioned in the provided context. If you're looking for information about a specific product, I'd be happy to try and assist you!
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Session 331bad5f-e31f-424e-bf1f-6d862f2846a1 started for user 4
+INFO:root:Session 331bad5f-e31f-424e-bf1f-6d862f2846a1 started for user 4
+INFO:root:User 4 question: hello
+INFO:root:Retrieved chat history for user 4
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 4
+INFO:root:Reranked documents for user 4
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 4
+INFO:root:Prompt created for user 4
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 4
+INFO:root:Message saved for user 4 at 2024-11-03 16:18:54
+INFO:root:Saved chat history for user 4
+INFO:root:User 4 asked: hello
+INFO:root:Assistant responded: Hello! How can I assist you today? Do you have a specific medication in mind or a particular symptom you'd like to discuss?
+INFO:root:Session 331bad5f-e31f-424e-bf1f-6d862f2846a1 started for user 4
+INFO:root:Session 331bad5f-e31f-424e-bf1f-6d862f2846a1 started for user 4
+INFO:root:User 4 question: what is the anobliss
+INFO:root:Retrieved chat history for user 4
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! How can I assist you today? Do you have a specific medication in mind or a particular symptom you'd like to discuss?", 'timestamp': '2024-11-03 16:18:54'}]
+INFO:root:Retrieved 4 relevant documents for user 4
+INFO:root:Reranked documents for user 4
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='Anobliss Cream is a medication that contains Lidocaine (1.5% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream,The price is 136.68 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Ancool  Oral Suspension Sugar Free is a medication that contains Aluminium Hydroxide (300mg/5ml) , It is manufactured by Zuventus Healthcare Ltd and comes in a bottle of 170 ml Oral Suspension,The'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 4
+INFO:root:Prompt created for user 4
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 4
+INFO:root:Message saved for user 4 at 2024-11-03 16:19:03
+INFO:root:Saved chat history for user 4
+INFO:root:User 4 asked: what is the anobliss
+INFO:root:Assistant responded: Anobliss Cream is a medication that contains Lidocaine (1.5% w/w). It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream. The price is 136.68 EGP.
+INFO:root:Chat history retrieved for user 1
+INFO:root:Chat history retrieved for user 4
+INFO:root:Chat history retrieved for user 5
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 16:22:27
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! I'm happy to assist you with any questions or concerns you may have about medications or products in our pharmacy. What can I help you with today?
+INFO:root:Chat history retrieved for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:Session 8e21845c-c391-4132-9769-0e3f7304d2bc started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! I'm happy to assist you with any questions or concerns you may have about medications or products in our pharmacy. What can I help you with today?", 'timestamp': '2024-11-03 16:22:27'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 16:37:08
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! I'm happy to assist you with any questions or concerns you may have about medications or products in our pharmacy. What can I help you with today?
+INFO:root:Chat history retrieved for user 1
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: BAAI/bge-small-en
+INFO:faiss.loader:Loading faiss with AVX512 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX512 support.
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: BAAI/bge-small-en
+INFO:faiss.loader:Loading faiss with AVX512 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX512 support.
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:14:20
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! Welcome to our pharmacy. How can I assist you today? Do you have any questions about a specific medication or symptom you're experiencing?
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: what is the anobliss cream ?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! Welcome to our pharmacy. How can I assist you today? Do you have any questions about a specific medication or symptom you're experiencing?", 'timestamp': '2024-11-03 17:14:20'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='Anobliss Cream is a medication that contains Lidocaine (1.5% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream,The price is 136.68 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Anosum Cream is a medication that contains Lidocaine (4% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 20 gm Rectal Cream,The price is 98.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Anovate Cream is a medication that contains Phenylephrine (0.10% w/w) , It is manufactured by USV Ltd and comes in a tube of 20 gm Cream,The price is 134.2 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:14:39
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is the anobliss cream ?
+INFO:root:Assistant responded: Anobliss Cream is a medication that contains Lidocaine (1.5% w/w) and is manufactured by Samarth Life Sciences Pvt Ltd. It comes in a tube of 30 gm Rectal Cream and the price is 136.68 EGP.
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: what is the company of it?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! Welcome to our pharmacy. How can I assist you today? Do you have any questions about a specific medication or symptom you're experiencing?", 'timestamp': '2024-11-03 17:14:20'}, {'user_message': 'what is the anobliss cream ?', 'assistant_response': 'Anobliss Cream is a medication that contains Lidocaine (1.5% w/w) and is manufactured by Samarth Life Sciences Pvt Ltd. It comes in a tube of 30 gm Rectal Cream and the price is 136.68 EGP.', 'timestamp': '2024-11-03 17:14:39'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Atormac TG Tablet is a medication that contains Atorvastatin (10mg) , It is manufactured by Macleods Pharmaceuticals Pvt Ltd and comes in a strip of 10 tablets,The price is 221.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Abiways Tablet is a medication that contains Acebrophylline (100mg) , It is manufactured by Mankind Pharma Ltd and comes in a strip of 10 tablets,The price is 167.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:14:53
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is the company of it?
+INFO:root:Assistant responded: The company that manufactures Anobliss Cream is Samarth Life Sciences Pvt Ltd.
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: thanks
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! Welcome to our pharmacy. How can I assist you today? Do you have any questions about a specific medication or symptom you're experiencing?", 'timestamp': '2024-11-03 17:14:20'}, {'user_message': 'what is the anobliss cream ?', 'assistant_response': 'Anobliss Cream is a medication that contains Lidocaine (1.5% w/w) and is manufactured by Samarth Life Sciences Pvt Ltd. It comes in a tube of 30 gm Rectal Cream and the price is 136.68 EGP.', 'timestamp': '2024-11-03 17:14:39'}, {'user_message': 'what is the company of it?', 'assistant_response': 'The company that manufactures Anobliss Cream is Samarth Life Sciences Pvt Ltd.', 'timestamp': '2024-11-03 17:14:53'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='comes in a bottle of 50 ml Oral Suspension,The price is 203.28 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:15:02
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: thanks
+INFO:root:Assistant responded: You're welcome! Is there anything else I can help you with? Do you have any questions about Anobliss Cream or would you like to inquire about a different medication or symptom?
+INFO:root:Chat history retrieved for user 1
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history retrieved for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:16:47
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! How can I assist you today? Are you looking for information about a specific medication or do you have a symptom you'd like some advice on?
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: what is the price of anboliss crean?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! How can I assist you today? Are you looking for information about a specific medication or do you have a symptom you'd like some advice on?", 'timestamp': '2024-11-03 17:16:47'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 50 ml Oral Suspension,The price is 203.28 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:17:05
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is the price of anboliss crean?
+INFO:root:Assistant responded: I don't have that information right now.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:18:29
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Do you have a specific question about a medication or a symptom you're experiencing?
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: what is the price of anaboliss cream?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Do you have a specific question about a medication or a symptom you're experiencing?", 'timestamp': '2024-11-03 17:18:29'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 50 ml Oral Suspension,The price is 203.28 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:18:44
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is the price of anaboliss cream?
+INFO:root:Assistant responded: I don't have that information right now.
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: anboliss cream
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Do you have a specific question about a medication or a symptom you're experiencing?", 'timestamp': '2024-11-03 17:18:29'}, {'user_message': 'what is the price of anaboliss cream?', 'assistant_response': "I don't have that information right now.", 'timestamp': '2024-11-03 17:18:44'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='Anovate Cream is a medication that contains Phenylephrine (0.10% w/w) , It is manufactured by USV Ltd and comes in a tube of 20 gm Cream,The price is 134.2 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Anozest Cream is a medication that contains Lidocaine (1.5% w/w) , It is manufactured by Quepreon Biologicals Pvt Ltd and comes in a tube of 30 gm Rectal Cream,The price is 119.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Anomed L Cream is a medication that contains Lidocaine (1.5% w/w) , It is manufactured by Stadmed Pvt Ltd and comes in a tube of 20 gm Rectal Cream,The price is 136.08 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:18:53
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: anboliss cream
+INFO:root:Assistant responded: I don't have that information right now.
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: what is the anboliss cream
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Do you have a specific question about a medication or a symptom you're experiencing?", 'timestamp': '2024-11-03 17:18:29'}, {'user_message': 'what is the price of anaboliss cream?', 'assistant_response': "I don't have that information right now.", 'timestamp': '2024-11-03 17:18:44'}, {'user_message': 'anboliss cream', 'assistant_response': "I don't have that information right now.", 'timestamp': '2024-11-03 17:18:53'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='Anovate Cream is a medication that contains Phenylephrine (0.10% w/w) , It is manufactured by USV Ltd and comes in a tube of 20 gm Cream,The price is 134.2 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Anomed L Cream is a medication that contains Lidocaine (1.5% w/w) , It is manufactured by Stadmed Pvt Ltd and comes in a tube of 20 gm Rectal Cream,The price is 136.08 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Anosum Cream is a medication that contains Lidocaine (4% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 20 gm Rectal Cream,The price is 98.0 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:19:06
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is the anboliss cream
+INFO:root:Assistant responded: I apologize, but I couldn't find any information about "anboliss cream". It's possible that it's a misspelling or not a valid medication. If you meant to ask about Anovate Cream, I can provide you with its information. It contains Phenylephrine (0.10% w/w), is manufactured by USV Ltd, comes in a tube of 20 gm Cream, and the price is 134.2 EGP.
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: what is the price of anboliss cream
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': "Hello! I'm a pharmacy assistant chatbot. How can I assist you today? Do you have a specific question about a medication or a symptom you're experiencing?", 'timestamp': '2024-11-03 17:18:29'}, {'user_message': 'what is the price of anaboliss cream?', 'assistant_response': "I don't have that information right now.", 'timestamp': '2024-11-03 17:18:44'}, {'user_message': 'anboliss cream', 'assistant_response': "I don't have that information right now.", 'timestamp': '2024-11-03 17:18:53'}, {'user_message': 'what is the anboliss cream', 'assistant_response': 'I apologize, but I couldn\'t find any information about "anboliss cream". It\'s possible that it\'s a misspelling or not a valid medication. If you meant to ask about Anovate Cream, I can provide you with its information. It contains Phenylephrine (0.10% w/w), is manufactured by USV Ltd, comes in a tube of 20 gm Cream, and the price is 134.2 EGP.', 'timestamp': '2024-11-03 17:19:06'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 50 ml Oral Suspension,The price is 203.28 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:19:28
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is the price of anboliss cream
+INFO:root:Assistant responded: I apologize, but I couldn't find any information about "anboliss cream". It's possible that it's a misspelling or not a valid medication. If you meant to ask about Anovate Cream, the price is 134.2 EGP.
+INFO:root:Chat history retrieved for user 1
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: What is Anobliss Cream?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='Anobliss Cream is a medication that contains Lidocaine (1.5% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream,The price is 136.68 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Anosum Cream is a medication that contains Lidocaine (4% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 20 gm Rectal Cream,The price is 98.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Anovate Cream is a medication that contains Phenylephrine (0.10% w/w) , It is manufactured by USV Ltd and comes in a tube of 20 gm Cream,The price is 134.2 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:20:09
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: What is Anobliss Cream?
+INFO:root:Assistant responded: Anobliss Cream is a medication that contains Lidocaine (1.5% w/w). It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream. The price is 136.68 EGP.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: What is Anobliss Cream?
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='Anobliss Cream is a medication that contains Lidocaine (1.5% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 30 gm Rectal Cream,The price is 136.68 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Anosum Cream is a medication that contains Lidocaine (4% w/w) , It is manufactured by Samarth Life Sciences Pvt Ltd and comes in a tube of 20 gm Rectal Cream,The price is 98.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='Anovate Cream is a medication that contains Phenylephrine (0.10% w/w) , It is manufactured by USV Ltd and comes in a tube of 20 gm Cream,The price is 134.2 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:23:54
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: What is Anobliss Cream?
+INFO:root:Assistant responded: Anobliss Cream is a medication that contains Lidocaine (1.5% w/w), manufactured by Samarth Life Sciences Pvt Ltd, and comes in a tube of 30 gm Rectal Cream. The price is 136.68 EGP.
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: what the company of it
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'What is Anobliss Cream?', 'assistant_response': 'Anobliss Cream is a medication that contains Lidocaine (1.5% w/w), manufactured by Samarth Life Sciences Pvt Ltd, and comes in a tube of 30 gm Rectal Cream. The price is 136.68 EGP.', 'timestamp': '2024-11-03 17:23:54'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:24:00
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what the company of it
+INFO:root:Assistant responded: The company that manufactures Anobliss Cream is Samarth Life Sciences Pvt Ltd.
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:Session 4c29ba13-d637-408c-a41a-413405229951 started for user 1
+INFO:root:User 1 question: what is the price of it
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'What is Anobliss Cream?', 'assistant_response': 'Anobliss Cream is a medication that contains Lidocaine (1.5% w/w), manufactured by Samarth Life Sciences Pvt Ltd, and comes in a tube of 30 gm Rectal Cream. The price is 136.68 EGP.', 'timestamp': '2024-11-03 17:23:54'}, {'user_message': 'what the company of it', 'assistant_response': 'The company that manufactures Anobliss Cream is Samarth Life Sciences Pvt Ltd.', 'timestamp': '2024-11-03 17:24:00'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a packet of 10 ml Eye Drop,The price is 46.33 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:24:06
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: what is the price of it
+INFO:root:Assistant responded: The price of Anobliss Cream is 136.68 EGP.
+INFO:root:Chat history retrieved for user 1
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history retrieved for user 1
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: BAAI/bge-small-en
+INFO:faiss.loader:Loading faiss with AVX512 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX512 support.
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: BAAI/bge-small-en
+INFO:faiss.loader:Loading faiss with AVX512 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX512 support.
+INFO:root:Session 7da2d648-9170-4b62-a88d-c56576165f04 started for user 1
+INFO:root:Session 7da2d648-9170-4b62-a88d-c56576165f04 started for user 1
+INFO:root:User 1 question: hello
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: []
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='a bottle of 100 ml Expectorant,The price is 93.5 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:31:38
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: hello
+INFO:root:Assistant responded: Hello! How can I assist you today? Do you have a specific question about a medication or would you like to know more about our available products?
+INFO:root:Session 7da2d648-9170-4b62-a88d-c56576165f04 started for user 1
+INFO:root:Session 7da2d648-9170-4b62-a88d-c56576165f04 started for user 1
+INFO:root:User 1 question: i have headache
+INFO:root:Retrieved chat history for user 1
+INFO:root:Chat History Content: [{'user_message': 'hello', 'assistant_response': 'Hello! How can I assist you today? Do you have a specific question about a medication or would you like to know more about our available products?', 'timestamp': '2024-11-03 17:31:38'}]
+INFO:root:Retrieved 4 relevant documents for user 1
+INFO:root:Reranked documents for user 1
+INFO:root:Reranked Docs Content: [(Document(metadata={}, page_content='comes in a bottle of 60 ml Solution,The price is 690.0 EGP..'), 0.016666666666666666), (Document(metadata={}, page_content='Remedies Pvt Ltd and comes in a bottle of 200 ml Oral Solution,The price is 192.5 EGP..'), 0.01639344262295082), (Document(metadata={}, page_content='comes in a bottle of 100 ml Oral Suspension,The price is 118.0 EGP..'), 0.016129032258064516)]
+INFO:root:Context for response prepared for user 1
+INFO:root:Prompt created for user 1
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Response generated for user 1
+INFO:root:Message saved for user 1 at 2024-11-03 17:31:54
+INFO:root:Saved chat history for user 1
+INFO:root:User 1 asked: i have headache
+INFO:root:Assistant responded: Sorry to hear that you have a headache! Based on your symptoms, I would suggest some over-the-counter pain relievers that might help. We have various options available, but I would recommend checking with our pharmacist or a doctor to determine the best course of treatment for you.
+
+In the meantime, I can check the availability of some common pain relievers in our inventory. Unfortunately, I don't have any specific information about headache medications in our provided data. However, I can ask you to visit our pharmacy and consult with our pharmacist, who can assist you in finding the right medication for your headache.
+
+Please let me know if there's anything else I can help you with!
+INFO:root:Chat history for user 1 has been cleared.
+INFO:root:Chat history for user 1 has been cleared.
