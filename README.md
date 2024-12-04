@@ -73,10 +73,6 @@ Contributions to the project are welcome! Please follow these steps to contribut
 3. Commit your changes and push them to your fork.
 4. Open a pull request with a detailed description of your changes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - **FastAPI**: For building the API framework.
